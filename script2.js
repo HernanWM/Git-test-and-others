@@ -16,3 +16,7 @@ if (num < 49){
 } else {
     console.log("ok!");
 }
+
+//lineal coddig
+
+(num == 50) ? console.log("OK!") : console.log("Error");
