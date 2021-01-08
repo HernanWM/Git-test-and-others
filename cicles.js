@@ -19,5 +19,8 @@ for(let i = 1; i<8; i++){
         break;
     }*/ 
 
+    //permite pasar de largo el paso especificado
+    /*continue;*/
+
     console.log(i);
 }
