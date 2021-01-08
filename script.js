@@ -3,6 +3,7 @@
 1) Создать переменную numberOfFilms и в неё поместить ответ от пользователя на вопрос:
 'Сколько фильмов вы уже посмотрели?'
 
+
 2) Создать объект personalMovieDB и в него поместить такие свойства:
     - count - сюда передается ответ на первый вопрос
     - movies - в это свойство поместить пустой объект
@@ -23,3 +24,20 @@
 
 'use strict';
 
+const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', "");
+
+const personalMovieDB={
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+const a = prompt('Один из последних просмотренных фильмов?', ""),
+      b = prompt('На сколько оцените его?', ""),
+      c = prompt('Один из последних просмотренных фильмов?', ""),
+      d = prompt('На сколько оцените его?', "");
+
+      personalMovieDB.movie[a] = b;
+      personalMovieDB.movie[c] = d;
